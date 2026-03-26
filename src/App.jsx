@@ -1,8 +1,10 @@
-{
-  "short_name": "Portfolio",
-  "name": "Ludojefferson Luis Portfolio",
-  "start_url": ".",
-  "display": "standalone",
-  "theme_color": "#000000",
-  "background_color": "#000000"
+function App() {
+  return (
+    <div style={{ color: "white", padding: "20px" }}>
+      <h1>Portfólio Ludojefferson 🚀</h1>
+      <p>Seu projeto já está rodando na Vercel.</p>
+    </div>
+  )
 }
+
+export default App
